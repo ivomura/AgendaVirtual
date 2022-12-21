@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AgregarTareaFragment"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtDatosTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtDatosTarea"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtNombreTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtNombreTarea"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtFechaTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtFechaTarea">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtHoraTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtHoraTarea">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtDescripcionTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtDescripcionTarea">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnAgregarTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAgregarTarea"
+        android:layout_marginTop="20dp">
+    </Button>
+
+</LinearLayout>

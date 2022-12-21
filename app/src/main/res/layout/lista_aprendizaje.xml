@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblnombre"
+        android:textSize="20sp"
+        android:text="Nombre:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/nombres"
+        android:textSize="20sp"
+        android:text="Aprender"
+        android:layout_toRightOf="@+id/lblnombre"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lbldescripcion"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="Descripcion:"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblnombre"/>
+    <TextView
+        android:id="@+id/descripciones"
+        android:textSize="20sp"
+        android:text="asdadasda"
+        android:layout_toRightOf="@+id/lbldescripcion"
+        android:layout_below="@+id/lblnombre"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

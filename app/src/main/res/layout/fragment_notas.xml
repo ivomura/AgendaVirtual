@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Notas">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="@string/txt_recordatorio"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayoutEditar"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtRecordatorio"
+            android:hint="Nombre recordatorio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:hint="Descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+
+        <Button
+        android:id="@+id/btnAgregarAprendizaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="agregar aprendizaje" />
+
+        <Button
+            android:id="@+id/btn_editar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="guardar aprendizaje" />
+        <Button
+            android:id="@+id/btn_borrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar aprendizaje" />
+
+
+    </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_recordatorio"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Notas"></FrameLayout>
+
+</LinearLayout>

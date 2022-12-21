@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">agendaVirtual</string>
+    <string name="menuListadoTareas">Listado</string>
+    <string name="menuAgregarTarea">Agregar</string>
+    <string name="menuNotas">Notas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txtDatosTarea">Ingresa los datos de la tarea</string>
+    <string name="edtNombreTarea">Nombre</string>
+    <string name="edtFechaTarea">Fecha</string>
+    <string name="edtHoraTarea">Hora</string>
+    <string name="edtDescripcionTarea">Descripcion</string>
+    <string name="btnAgregarTarea">AGREGAR TAREA</string>
+    <string name="txtFragmentC">Editor de Tarea</string>
+    <string name="txt_editorTarea">Listado de Tareas</string>
+    <string name="txt_Tareas">Listado de Tareas</string>
+    <string name="txt_tareasVistas">tareas actuales</string>
+    <string name="txt_calendario">Calendario</string>
+    <string name="txt_informacion">Informacion de la tarea</string>
+    <string name="txt_recordatorio">Enseñanzas</string>
+    <string name="txtEdicionTareas">Editar Tarea</string>
+    <string name="btnGuardarCambios">Guardar Cambios</string>
+    <string name="btnBorrarTarea">Borrar Tarea</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_agregar_nota">AgregarNota</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
